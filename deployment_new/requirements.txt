@@ -1,0 +1,8 @@
+streamlit==1.44.0
+seaborn
+pandas
+matplotlib
+plotly
+pillow
+numpy
+scikit-learn==1.6.1

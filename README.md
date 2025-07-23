@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Bimantyo Arya and I'm a Data Enthusiast, from Indonesia</h2>
+<h1 align="left">Hi 👋! My name is Bimantyo Arya and I'm a Data Enthusiast, from Indonesia</h1>
 
 ###
 

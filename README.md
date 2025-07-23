@@ -64,6 +64,7 @@ Referensi landasan untuk project ini
 Untuk Model Deployment bisa diakses pada link dibawah. 
 
 - Tata Cara Penggunaan
+
   1. Klik Link dibawah ini
   2. Kemudian pada navigation bar di samping ganti menjadi Prediction
   3. Isi data parameter sesuai dengan apa yang anda rasakan

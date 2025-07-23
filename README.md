@@ -1,2 +1,36 @@
-# Milestone-2
-Ini adalah milestone kedua saya dalam pengembangan model machine learning, yang bertujuan untuk memprediksi potensi depresi pada mahasiswa yang sedang menjalani masa studi. Model ini dibangun berdasarkan dataset yang diperoleh dari Kaggle, yang mencakup berbagai faktor seperti tekanan akademik, kepuasan belajar, durasi tidur, dan lain-lainnya.
+# Judul Project
+Mental Health Analysis: Predicting Depression in Students with Machine Learning
+
+## Repository Outline
+Program ini dibuat untuk memprediksi siswa yang berpotensi mengalami depresi, sehingga dapat dilakukan tindakan preventif secara dini dan penanganan yang tepat terhadap mereka yang terindikasi mengalami gangguan kesehatan mental. Dengan bantuan model machine learning, proses identifikasi risiko depresi menjadi lebih cepat dan berbasis data, guna mendukung upaya peningkatan kesejahteraan mental siswa.
+
+## Problem Background
+Kesehatan mental merupakan isu yang semakin mendapat perhatian di era saat ini. Jika sebelumnya banyak masyarakat yang belum memahami pentingnya kesehatan mental, kini kesadaran akan hal tersebut telah meningkat secara signifikan. Kesehatan mental memengaruhi gaya hidup, pola pikir, perilaku, hingga kondisi fisik seseorang secara keseluruhan. Oleh karena itu, penting untuk mulai menyadari dan memantau kondisi mental sejak dini.
+
+Proyek ini difokuskan untuk memprediksi potensi depresi pada siswa dengan menggunakan model machine learning, berdasarkan berbagai fitur yang tersedia dalam dataset—seperti tekanan akademik, kepuasan belajar, durasi tidur, serta faktor sosial dan psikologis lainnya.
+
+## Project Output
+Output dari project ini berupa Model Machine Learning untuk memprediksi depresi student sedari dini.
+
+## Data
+Sumber data yang digunakan berasal dari kaggle, untuk sumber data dapat dilihat di https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset. 
+
+Dataset ini memiliki 18 kolom dan total 27.9 ribu baris data. Pada dataset ini tidak ditemukan data duplicate namun hanya terdapat missing values sebanyak 3 baris pada kolom financial_stress. Pada dataset ini terdapat beberapa professi namun berhubung profesi selain non student hanya beberapa baris data saja dan tidak mewakilkan dalam suatu populasi maka project ini berfokus pada profesi student guna menghindari outlier ataupun error, Pada kolom academic_pressure, cgpa, financial_stress, study_satisfaction terdapat nilai 0 dimana nilai tersebut bisa jadi bad input maka akan dilakukan filter menggunakan data yang legit dan valid. Mayoritas data memiliki distribusi yang normal.
+
+## Method
+Metode yang digunakan dalam project ini adalah model supervised learning dengan model KNN, SVM, Decision Tree, Random Forest dan CatBoost.
+
+## Stacks
+Untuk library yang digunakan pada program ini menggunakan bahasa pemrograman python dan untuk library menggunakan pandas, seaborn, matplotlib, scikit-learn dan cat boost
+
+## Reference
+Referensi landasan untuk project ini
+- https://ayosehat.kemkes.go.id/pentingnya-kesehatan-mental-bagi-remaja
+- https://hiinstitute.or.id/pentingnya-kesehatan-mental-di-era-modern-2/
+- https://ejournal.fkm.unsri.ac.id/index.php/jikm/article/view/241
+- https://rgrfm.tulungagung.go.id/mental-illness-penyebab-dan-dampak-yang-perlu-diketahui/
+
+## Model Deployment
+https://huggingface.co/spaces/Bimaarya/student-depression-awareness
+
+---

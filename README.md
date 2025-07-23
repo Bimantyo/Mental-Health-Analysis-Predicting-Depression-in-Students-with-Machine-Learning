@@ -31,6 +31,16 @@ Referensi landasan untuk project ini
 - https://rgrfm.tulungagung.go.id/mental-illness-penyebab-dan-dampak-yang-perlu-diketahui/
 
 ## Model Deployment
+Untuk Model Deployment bisa diakses pada link dibawah. 
+
+- Tata Cara Penggunaan
+  1. Klik Link dibawah ini
+  2. Kemudian pada navigation bar di samping ganti menjadi Prediction
+  3. Isi data parameter sesuai dengan apa yang anda rasakan
+  4. Kemudian klik Predict
+  5. Model akan menampilkan hasil prediksi berdasarkan parameter yang anda isi, dan hasil akan menampilkan angka 1 jika anda terdeteksi memiliki depresi
+
+
 https://huggingface.co/spaces/Bimaarya/student-depression-awareness
 
 ---

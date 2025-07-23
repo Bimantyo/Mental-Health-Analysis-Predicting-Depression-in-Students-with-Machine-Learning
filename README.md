@@ -5,7 +5,7 @@
 <img align="right" height="150" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjNvcDI3dnFxODNkeTZwcGlscGk3N2xzNGJ0cXpzZTM0Yzl6cjdzciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OumCa12QC9CIvBe2c1/giphy.gif"  />
 
 ###
-
+These are my Tech Stack that i used
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
   <img width="12" />

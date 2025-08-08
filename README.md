@@ -23,8 +23,7 @@ This project focuses on predicting the likelihood of depression among students b
 
 - Students with healthy diets tend to be less prone to depression, while those with moderate diets show a majority experiencing depression. Students with unhealthy diets are predominantly affected by depression.
 - A significant number of students sleep less than 5 hours, with 2,065 students experiencing both high academic pressure and short sleep duration—indicating a link between high academic pressure and reduced sleep.
-- Students with depression tend to have higher financial stress. 
-- Students with depression also tend to have higher academic pressure
+- Students with depression tend to have higher financial stress, also tend to have higher academic pressure
 
 ## :computer: Data
 The data source used comes from [kaggle](https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset)

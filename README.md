@@ -21,10 +21,10 @@ This project focuses on predicting the likelihood of depression among students b
 
 ## 📊 Project Highlights
 
-- Vitamin & Mineral products are the most in-demand category, recording the highest sales compared to other supplement types.
-- Sales trends vary across platforms and tend to fluctuate, but iHerb consistently demonstrates the strongest sales performance.
-- iHerb is also the most preferred platform among customers and has generated the highest total revenue over the five-year period.
-- Discount offerings do not strongly influence customer purchasing behavior.
+- Students with healthy diets tend to be less prone to depression, while those with moderate diets show a majority experiencing depression. Students with unhealthy diets are predominantly affected by depression.
+- A significant number of students sleep less than 5 hours, with 2,065 students experiencing both high academic pressure and short sleep duration—indicating a link between high academic pressure and reduced sleep.
+- Students with depression tend to have higher financial stress. 
+- Students with depression also tend to have higher academic pressure
 
 ## :computer: Data
 The data source used comes from [kaggle](https://www.kaggle.com/datasets/adilshamim8/student-depression-dataset)
@@ -34,16 +34,19 @@ The dataset contains 18 columns and a total of 27.9 thousand rows. No duplicate 
 In the columns academic_pressure, cgpa, financial_stress, and study_satisfaction, there are entries with a value of 0, which may indicate erroneous or invalid inputs. These will be filtered out to ensure only valid and reliable data is used. The majority of the data exhibits a normal distribution.
 
 ## :rocket: Reference
+
 Reference for this project 
+
 - https://ayosehat.kemkes.go.id/pentingnya-kesehatan-mental-bagi-remaja
 - https://hiinstitute.or.id/pentingnya-kesehatan-mental-di-era-modern-2/
 - https://ejournal.fkm.unsri.ac.id/index.php/jikm/article/view/241
 - https://rgrfm.tulungagung.go.id/mental-illness-penyebab-dan-dampak-yang-perlu-diketahui/
 
 ## :dart: Model Deployment
+
 For model deployment can be accessed [here](https://huggingface.co/spaces/Bimaarya/student-depression-awareness)
 
-- Usage Instructions
+Usage Instructions
 
 1. Click the link provided below.
 2. In the navigation bar, switch to the Prediction section.
